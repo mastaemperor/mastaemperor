@@ -54,4 +54,13 @@ button {
 .action-class {
   background-color: #eee;
 }
-
+@media screen and (min-device-width: 59px) {
+  .calculator {
+    width: 400px;
+    height: 400px;
+  }
+  .buttons {
+    width: 400px;
+    height: 400px;
+  }
+}
