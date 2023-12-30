@@ -11,11 +11,13 @@
   <form name = "form1">
     <input id = "calc" type ="text" name = "answer">
 
-    <div class="buttons">
-      <button type="button" onclick = "form1.answer.value += '*' ">*</button>
-      <button type="button" onclick = "form1.answer.value += '/' ">/</button>
-      <button type="button" onclick = "form1.answer.value += '-' ">-</button>
+    <div class="buttons" id="blue">
       <button type="button" onclick = "form1.answer.value += '+' ">+</button>
+      <button type="button" onclick = "form1.answer.value += '-' ">-</button>
+      <button type="button" onclick = "form1.answer.value += '*' ">&times</button>
+      <button type="button" onclick = "form1.answer.value += '/' ">&divide</button>
+      
+      
       
       <button type="button" onclick = "form1.answer.value += '7' ">7</button>
       <button type="button" onclick = "form1.answer.value += '8' ">8</button>

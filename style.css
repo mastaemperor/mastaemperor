@@ -13,7 +13,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
-  max-width: 15em;  
+  max-width: 15em; 
 }
 
 #calc {
@@ -22,12 +22,21 @@ button {
   color: #fff;
   text-align: right;
   padding: 10px;
+  border: solid red;
+}
+#blue {
+  width: 100%;
+  border: solid #2A55FF;
+  height: 100%;
+
+  
 }
 .buttons {
   background-color: #999;
   display: grid;
   grid-gap: 1px;
   grid-template-columns: repeat(4, 1fr);
+  
 }
 .buttons .equal {
   background: #FF5500 ;
